@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_COPY_FILES += \
-    device/Vyper/LP/recovery.fstab:recovery/root/recovery.fstab
+    device/LP/Vyper/recovery.fstab:recovery/root/recovery.fstab
 
 PRODUCT_DEVICE := LP
 PRODUCT_NAME := omni_LP
